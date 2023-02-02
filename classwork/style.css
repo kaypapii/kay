@@ -1,0 +1,47 @@
+*{
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(4, 2, 2);
+}
+.main{
+
+    background: url(https://media.istockphoto.com/id/1139493497/photo/ive-got-no-worries.jpg?s=170667a&w=0&k=20&c=9Y0PYScGNcY3w2wNaEXNKvuOPCypirBKU0b-7eyjtr4=);
+    width: 20rem;
+    padding:30px;
+    height: 35rem ;
+    position: relative;
+    top: 5.5rem;
+    left: 33rem;
+    border-radius: 1.8rem;
+}
+.sign{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: block;
+    height: 25vh;
+    text-align: center;
+    border-radius: 0 2.5rem 1.8rem 1.8rem;
+    width: 20rem;
+    right: 1.9rem;
+    margin-top: 16rem;
+    top: 1rem;
+    padding: 1.5rem;
+}
+h3{
+    text-align: left;
+    font-size: 16px;
+}
+button{
+    width: 15vw;
+    height: 4vh;
+    text-align: center;
+    margin: auto;
+    background-color:rgb(42, 40, 40) ;
+    color: #fff;
+    border-radius: 0.5em;
+}
+
