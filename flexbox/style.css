@@ -1,0 +1,56 @@
+@media screen and (min-width :400px){
+
+    ul{
+    list-style-type: none;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+background-color: antiquewhite;
+padding: 3em 0;
+font-family: "Roboto", sans-serif;
+
+
+}
+
+a{
+text-decoration: none;
+text-transform: uppercase;
+padding: 1em 2em;
+}
+main{
+position: relative;
+top: 3em;
+z-index: -1;
+}
+h2 p{
+    font-family: 'Dancing Script', cursive, sans-serif;
+}
+
+
+
+}
+@media screen and (min-width :1080px){
+    ul{
+        list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 3em 0;
+    
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 2em;
+}
+main{
+    font-family: 'Dancing Script', cursive, sans-serif;
+    position: relative;
+    top: 3em;
+}
+h2{
+    text-transform: capitalize;
+}   
+}

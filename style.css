@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+section {
+    height: 100vh;
+    border-bottom: 2px solid black;
+    
+
+}
+section:first-of-type{
+    background:url(./large/iliya-ryakhovskiy-vfyvip4aT4Q-unsplash.jpg);
+    background-color: rgba(0, 0, 0, 0.495);
+    background-blend-mode: overlay;
+    background-size: cover; 
+}
+
+section nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 1em;
+    height: 3em;
+    align-items: center;
+}
+/* .image{
+    max-width: 20%;
+    margin: 0 auto;
+    text-align: center; */
+header{
+    font-size:40px ;
+}
+#home{
+    color:#C15643;
+}
+span{
+    color: bisque;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 1em;
+    color:bisque;
+    text-transform: capitalize;
+}
+nav a button{
+    font-size: 25px;
+    font-family:'Alegreya Sans', sans-serif;
+    text-transform: capitalize;
+    background-color: #C15643;
+}
+.image{
+  max-width: 50%;
+  margin: 5em auto;
+  text-align: center;
+}
+.image img{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative; 
+    /* background-color: #C15643; */
+
+}
+.image h2{
+    color: bisque;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.image p{
+    color: bisque;
+    font-weight: 300;
+}
+
+section:nth-of-type(2){
+    background-color:#1e2131;
+    font-weight: 100;
+    font-size: 18px;
+    color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-profile{
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 84%;
+ 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 4em;
+
+    
+}
+.content>h3{
+    margin: 0;
+    /* background-color:red; */
+}
+.content h3:nth-of-type(1){
+    margin-bottom: 0.5em;
+}
+.content h3:nth-of-type(2){
+ font-size: 32px;
+ color: #C15643;
+}
+
+.profile-img>img{
+    display: flex;
+    height:400px ;
+
+}
+.content-box{
+    display: flex;
+    /* background-color: blue; */
+    /* margin:0 30px 0 30px ; */
+    padding: 1em;
+    justify-content: space-around;
+    border: 1px solid #C15643;
+}
+.content>input{
+    margin-top: 1em;
+    width: 120px;
+    padding: 0.8em;
+    background-color: #C15643;
+    color: bisque;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.content>input:hover{
+    background-color: bisque;
+
+
+}
+section:last-of-type{
+    height: 100vh;
+    background-color: #25273e;
+    padding: 5%;   
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 100; 
+}
+.heading h3{
+    color:bisque;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.heading h3:last-of-type{
+    color: #C15643;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+/* main{
+    font-size: 28px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-rows:repeat(2, 25%) */
+.main{
+    font-size: 28px;
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-rows:repeat(4, 120px);
+    grid-template-areas: "a a b b c c "
+                         "a a b b c c " 
+                         "d d e e f f "
+                         "d d e e f f ";
+                         gap: 30px;
+}
+.box:nth-of-type(1){
+    grid-area: a;
+    text-align: left;
+}
+.box:nth-of-type(2){
+    grid-area: b;
+}
+.box:nth-of-type(3){
+    grid-area: c;
+}
+.box:nth-of-type(4){
+    grid-area: d;
+}
+.box:nth-of-type(5){
+    grid-area: e;
+}
+.box:last-of-type{
+    grid-area: f;
+}
+.box{
+    background-color: #1e2131;
+    width: 300px;
+    border-radius:5%;
+    padding: 25px;
+    border: 1px solid #C15643;
+
+}
+svg{
+    color: #C15643;
+    margin: 0;
+    width: auto;
+    height: 25%;
+}
+.box h3{
+    font-size: 24px;
+    font-weight: 300;
+    color: bisque;
+    text-transform: capitalize;
+}
+.box p{
+    font-size: 20px;
+    color: bisque;
+}
